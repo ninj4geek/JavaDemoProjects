@@ -1,2 +1,2 @@
 # JavaDemoProjects
-Initial Javaprojects as I learn the craft. 
+Initial Java projects as I learn the craft. 
