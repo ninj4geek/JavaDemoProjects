@@ -1,0 +1,22 @@
+public class a10 {    ////github note: reworked this exercise for practice /////
+    //calculate and print next 20 leap years
+    //leap years are divisible by 4
+    //not divisible by 100, unless it is divisible by 400
+    public static void main(String[] args) {
+
+        int currentYear = 1999;
+        int leapCount = 0;
+
+        for (int i = 0; i < 1000; i++) {
+            currentYear += 1;
+
+            if (((currentYear % 4 == 0) && (currentYear % 100 != 0)) || (currentYear % 400 == 0)) {
+                System.out.println(currentYear + " is a leap year!");
+                leapCount += 1;
+            }
+            if (leapCount >= 100){
+                break;
+            }
+        }
+    }
+}
